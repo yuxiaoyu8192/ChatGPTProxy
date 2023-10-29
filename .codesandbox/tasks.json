@@ -1,0 +1,18 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "go build",
+      "name": "go build"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "./ChatGPT-Proxy-V4": {
+      "name": "./ChatGPT-Proxy-V4",
+      "command": "./ChatGPT-Proxy-V4",
+      "runAtStart": true
+    }
+  }
+}
